@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Delights Bakery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #f28ca4;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background: #ffd6e0;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c') no-repeat center/cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #f28ca4;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights Bakery</h1>
+    <p>Homemade treats for every occasion</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Freshly Baked, With Love</h1>
+    <p>From cupcakes to catering, we’ve got your cravings covered!</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We’re a small hobby bakery passionate about creating delicious homemade cakes, pastries, and catering platters. Every item is baked fresh with high-quality ingredients and a sprinkle of love.</p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484b7" alt="Cupcakes">
+        <h3>Cupcakes</h3>
+        <p>Assorted flavors, perfect for parties.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1605478031469-9f6e3c7d6c3a" alt="Cakes">
+        <h3>Cakes</h3>
+        <p>Custom designs for birthdays & events.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1617196039897-7e7d2c2c932a" alt="Pastries">
+        <h3>Pastries</h3>
+        <p>Flaky, buttery, and freshly baked daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:sweetdelights@example.com">sweetdelights@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com" target="_blank">@sweetdelights</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sweet Delights Bakery | Made with ❤️</p>
+  </footer>
+</body>
+</html>
